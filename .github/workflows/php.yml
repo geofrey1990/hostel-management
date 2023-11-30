@@ -36,7 +36,6 @@ jobs:
       with:
         file: ./hostel-management/Dockerfile
         push: true
-        tags: hostel-managemnt:latest
         image: geofrey1990/hostel-managemnt
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
