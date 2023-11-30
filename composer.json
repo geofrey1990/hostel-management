@@ -1,0 +1,42 @@
+{
+    "name": "dipam-virani/hostel-management-system-project",
+    "description": "hostel management",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dipam Virani",
+            "email": "dipamvirani@gmail.com"
+        }
+    ],
+     "minimum-stability": "dev",
+    "prefer-stable": true,
+
+    "require": {
+        "php": ">=7.4"
+        
+        
+        
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dipam-virani/hostel-management-system-project.git"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+        
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+    
+}
